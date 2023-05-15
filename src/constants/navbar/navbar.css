@@ -6,9 +6,9 @@
 }
 
 .navBar .navBar-list {
-  position: fixed;
+  position: right;
   display: flex;
-  justify-content: space-around;; 
+  justify-content: right; 
   width: 100%;
   overflow:hidden;
   font-size: 18px;
@@ -20,4 +20,5 @@
 
 .navBar .navBar-list li {
   list-style: none;
+  margin-right: 16px;
 }

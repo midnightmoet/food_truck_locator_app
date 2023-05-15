@@ -7,7 +7,7 @@ const NavBar = () => {
         <ul className='navBar-list'>
             <li>Home</li>
             {/* <li>Food Trucks</li> */}
-            <li>Map</li>
+            {/* <li>Map</li> */}
             {/* <li>Sign Up</li> */}
             {/* <li>Log In</li> */}
             <li>Contact Us</li>
