@@ -1,0 +1,24 @@
+/* FOOTER */
+.footer {
+	position: fixed;
+	bottom: 0px;
+	background: black;
+	color: pink;
+	padding: 5px auto;
+	text-align: center;
+	margin: 0px;
+	width: 100%;
+}
+
+.footer a {
+	color: pink;
+	text-decoration: none;
+}
+
+.footer a:hover {
+	color: magenta;
+}
+
+footer .heart {
+	color: red;
+}
