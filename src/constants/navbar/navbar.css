@@ -12,7 +12,10 @@
   width: 100%;
   overflow:hidden;
   font-size: 18px;
-	color: pink;
+	color: slategray;
+  padding: 20px auto;
+  border-bottom: 1px solid pink;
+  box-shadow: 0 0 10px pink;
 }
 
 .navBar .navBar-list li {

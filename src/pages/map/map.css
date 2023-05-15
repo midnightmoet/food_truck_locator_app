@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.map{
+    position: relative;
+    left: 10%;
+    right: 10%;
+    width: 80%;
+    margin-top: 50px;
+    height: 80vh;
+    border: 1px solid slategray;
+    box-shadow: 0 0 10px pink;
+}
+
+.map h1 {
+    border-bottom: 1px solid pink;
+    box-shadow: 0 0 10px pink;
+    color: slategray;
+    margin: 0px;
+    padding: 10px auto;
+    text-align: center;
+}
+
+.map p {
+    color: slategray;
+    margin: 10px;
+    padding: 10px auto;
+    text-align: center;
+}
