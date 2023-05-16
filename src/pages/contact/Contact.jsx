@@ -1,12 +1,16 @@
 import React from "react";
 import "./contact.css";
+import Header from "../../constants/header/Header";
+import Footer from "../../constants/footer/Footer";
 
 const Contact = () => {
 	return (
-		<div>
+		<>
+		<Header />
+			<div>
 			<section class="contact" id="contact">
-				<h2>Contact Us:</h2>
 				<div class="contact-form-container">
+				<h2>Contact Us:</h2>
 					<div class="contact-form">
 						<form
 							action="https://formspree.io/f/mdovjavr"
@@ -38,7 +42,7 @@ const Contact = () => {
 								<label for="message">Message</label>
 								<textarea
 									id="message"
-									cols="60"
+									cols="40"
 									rows="10"
 									placeholder="Enter Your Message"
 									name="message"
@@ -47,6 +51,7 @@ const Contact = () => {
 								></textarea>
 							</div>
 							<input
+								className="contact-btn"
 								type="submit"
 								value="Submit"
 								id="submit-btn"
@@ -57,6 +62,8 @@ const Contact = () => {
 				</div>
 			</section>
 		</div>
+		<Footer />
+		</>
 	);
 };
 

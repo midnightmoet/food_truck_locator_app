@@ -3,3 +3,36 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.contact h2 {
+    /* border-bottom: 1px solid pink; */
+    /* box-shadow: 0 0 10px pink; */
+    color: slategray;
+    margin: 0px;
+    padding: 10px auto;
+    text-align: center;
+}
+
+.contact-form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50vw;
+    min-height: 50vh;
+    margin: 40px auto;
+    background: white;
+    border: 1px solid slategray;
+    box-shadow: 0 3px 6px pink;
+}
+
+.contact-btn {
+    background: pink;
+    color: slategray;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 10px;
+}

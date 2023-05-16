@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.back-btn-footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: transparent;
+    text-align: center;
+}
+
+.back-btn {
+    float: left;
+    background: pink;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: slategray;
+    font-size: 1rem;
+    cursor: pointer;
+    /* margin-right:10px; */
+}
+
+.back-btn:hover {
+    background: slategray;
+    color: pink;
+}

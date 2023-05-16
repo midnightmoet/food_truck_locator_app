@@ -22,3 +22,12 @@
   list-style: none;
   margin-right: 16px;
 }
+
+.li a {
+  text-decoration: none;
+  color: slategray;
+}
+
+.li a:hover {
+  color: pink;
+}

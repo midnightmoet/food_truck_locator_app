@@ -4,7 +4,7 @@ import './header.css'
 const Header = () => {
   return (
     <div className='header'>
-        <h1>NomNom Locator</h1>
+        <h1>Local Eats & Treats</h1>
     </div>
   )
 }
