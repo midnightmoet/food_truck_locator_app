@@ -8,6 +8,9 @@ const Signup = () => {
 	return (
 		<>
 			<Header />
+			<p className="signup-p">
+		Your favorite site to search up food trucks in your area
+	  </p>
 			<div className="signup">
 				<form className="signup-form">
 					<h1 className="heading">Signup</h1>

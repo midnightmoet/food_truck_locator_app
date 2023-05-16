@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "./login.css";
 import Header from "../../constants/header/Header";
 import Footer from "../../constants/footer/Footer";
-import Backbutton from "../../constants/backbutton/BackButton";
+// import Backbutton from "../../constants/backbutton/BackButton";
 
 const LoginForm = () => {
 	const [username, setUsername] = useState("");
@@ -17,6 +17,9 @@ const LoginForm = () => {
 	return (
     <>
       <Header />
+	  <p className="login-p">
+		Your favorite site to search up food trucks in your area
+	  </p>
       <div className="login-form">
 			<h2 className="login-form__heading">Login</h2>
 			<form>
@@ -44,7 +47,7 @@ const LoginForm = () => {
 				</p>
 			</form>
 		</div>
-		<Backbutton />
+		{/* <Backbutton /> */}
 		<Footer />
     </>
 	);
