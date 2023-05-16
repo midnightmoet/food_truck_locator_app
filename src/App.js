@@ -24,7 +24,7 @@ export default function App() {
 		<div>
 		<BrowserRouter>
 		  <Routes>
-			<Route exact path="/homepage" element={<Homepage/>}></Route>
+			<Route exact path="/" element={<Homepage/>}></Route>
 			<Route exact path="/login" element={<LoginForm></LoginForm>} />
 			<Route exact path="/signup" element={<Signup /> }></Route>
 			<Route exact path="/contact" element={<Contact />}></Route> 

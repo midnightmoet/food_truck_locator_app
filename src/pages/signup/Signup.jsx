@@ -2,6 +2,7 @@ import React from "react";
 import "./signup.css";
 import BackButton from "../../constants/backbutton/BackButton";
 import Header from "../../constants/header/Header";
+import Footer from "../../constants/footer/Footer";
 
 const Signup = () => {
 	return (
@@ -53,6 +54,7 @@ const Signup = () => {
 				</form>
 			</div>
 			<BackButton />
+			<Footer />
 		</>
 	);
 };

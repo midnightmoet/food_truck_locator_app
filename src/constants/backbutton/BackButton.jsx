@@ -6,7 +6,7 @@ const Backbutton = () => {
 		<div className="back-btn-footer">
 			<footer>
 			<button className="back-btn">
-				<a href="/homepage" class="previous">
+				<a href="/" class="previous">
 					&laquo; Previous
 				</a>
 				{/* <a href="#" class="next">

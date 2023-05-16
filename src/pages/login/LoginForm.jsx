@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import "./login.css";
 import Header from "../../constants/header/Header";
 import Footer from "../../constants/footer/Footer";
+import Backbutton from "../../constants/backbutton/BackButton";
 
 const LoginForm = () => {
 	const [username, setUsername] = useState("");
@@ -34,7 +35,7 @@ const LoginForm = () => {
 				<Link
 					onClick={handleLogin}
 					className="login-form__button"
-					to="/homepage"
+					to="/"
 				>
 					Login
 				</Link>
@@ -43,6 +44,7 @@ const LoginForm = () => {
 				</p>
 			</form>
 		</div>
+		<Backbutton />
 		<Footer />
     </>
 	);
