@@ -9,7 +9,7 @@
     /* box-shadow: 0 0 10px pink; */
     color: slategray;
     margin: 0px;
-    padding: 10px auto;
+    padding: 10px;
     text-align: center;
 }
 
@@ -27,7 +27,11 @@
     box-shadow: 0 3px 6px pink;
 }
 
-.contact-btn {
+.form-control {
+    padding: 10px;
+}
+
+button {
     background: pink;
     color: slategray;
     border: none;
@@ -35,4 +39,24 @@
     font-size: 16px;
     padding: 10px;
     margin-bottom: 10px;
+}
+
+button:hover {
+    background: slategray;
+    color: pink;
+}
+
+.input-field {
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.input-field:focus {
+    outline: none;
+}
+
+.input-field:hover {
+    border: 1px solid pink;
 }

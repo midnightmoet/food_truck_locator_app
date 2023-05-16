@@ -2,6 +2,7 @@ import React from "react";
 import "./contact.css";
 import Header from "../../constants/header/Header";
 import Footer from "../../constants/footer/Footer";
+import Backbutton from "../../constants/backbutton/BackButton";
 
 const Contact = () => {
 	return (
@@ -10,14 +11,14 @@ const Contact = () => {
 			<div>
 			<section class="contact" id="contact">
 				<div class="contact-form-container">
-				<h2>Contact Us:</h2>
+				<h2 className="contact-header">Contact Us:</h2>
 					<div class="contact-form">
 						<form
 							action="https://formspree.io/f/mdovjavr"
 							method="POST"
 						>
 							<div class="form-control">
-								<label for="name">Name</label>
+								<label for="name">Name: </label>
 								<input
 									type="text"
 									id="name"
@@ -28,7 +29,7 @@ const Contact = () => {
 								/>
 							</div>
 							<div class="form-control">
-								<label for="email">Email</label>
+								<label for="email">Email: </label>
 								<input
 									type="email"
 									id="email"
@@ -50,18 +51,19 @@ const Contact = () => {
 									required
 								></textarea>
 							</div>
-							<input
+							<button
 								className="contact-btn"
 								type="submit"
 								value="Submit"
 								id="submit-btn"
-								class="submit-btn"
-							/>
+								class="submit-btn">Submit</button>
+							
 						</form>
 					</div>
 				</div>
 			</section>
 		</div>
+		<Backbutton />
 		<Footer />
 		</>
 	);
