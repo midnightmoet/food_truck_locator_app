@@ -1,6 +1,6 @@
 {
-  "homepage": "https://midnightmoet.github.io/food_truck_locator",
   "name": "food_truck_locator",
+  "homepage": "https://midnightmoet.github.io/food_truck_locator_app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
