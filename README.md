@@ -27,6 +27,10 @@ Create a service that tells the user what types of food trucks might be found ne
 - [x] A user should be able to click a button to submit the form
 - [x] A user should be able to see a confirmation message after submitting the form
 
+## Resources
+- [x] Open Source [Leftlet](https://leafletjs.com/)
+- [x] [Radar] (https://radar.com/)
+
 
 
 

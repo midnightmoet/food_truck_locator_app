@@ -21,6 +21,7 @@
 .navBar .navBar-list li {
   list-style: none;
   margin-right: 16px;
+  padding: 10px;
 }
 
 .li a {
@@ -30,4 +31,6 @@
 
 .li a:hover {
   color: pink;
+  padding: 10px;
+  box-shadow: 0 0 10px slategray;
 }
