@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/food_truck_locator/static/css/main.73bb6f60.css",
-    "main.js": "/food_truck_locator/static/js/main.e66cbc3b.js",
-    "index.html": "/food_truck_locator/index.html",
-    "main.73bb6f60.css.map": "/food_truck_locator/static/css/main.73bb6f60.css.map",
-    "main.e66cbc3b.js.map": "/food_truck_locator/static/js/main.e66cbc3b.js.map"
+    "main.css": "/food_truck_locator_app/static/css/main.73bb6f60.css",
+    "main.js": "/food_truck_locator_app/static/js/main.e66cbc3b.js",
+    "index.html": "/food_truck_locator_app/index.html",
+    "main.73bb6f60.css.map": "/food_truck_locator_app/static/css/main.73bb6f60.css.map",
+    "main.e66cbc3b.js.map": "/food_truck_locator_app/static/js/main.e66cbc3b.js.map"
   },
   "entrypoints": [
     "static/css/main.73bb6f60.css",
