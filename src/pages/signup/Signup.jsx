@@ -9,8 +9,8 @@ const Signup = () => {
 		<>
 			<Header />
 			<p className="signup-p">
-		Your favorite site to search up food trucks in your area
-	  </p>
+				Your favorite site to search up food trucks in your area
+			</p>
 			<div className="signup">
 				<form className="signup-form">
 					<h1 className="heading">Signup</h1>
@@ -45,6 +45,17 @@ const Signup = () => {
 						id="password"
 						name="password"
 						placeholder="Enter your password"
+						required
+					/>
+					<label className="signup-form_label" for="password">
+						Confirm Password
+					</label>
+					<input
+						className="signup-input"
+						type="password"
+						id="password"
+						name="password"
+						placeholder="Confirm password"
 						required
 					/>
 

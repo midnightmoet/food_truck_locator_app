@@ -1,3 +1,5 @@
+// THIS WILL HANDLE LOGIN WHEN ACTIVATED
+
 const Reducer = (state, action) => {
     switch (action.type) {
       case "LOGIN_START":

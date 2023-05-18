@@ -12,25 +12,6 @@ export default function App() {
 	return (
 		<>
 			<div>
-				{/* <BrowserRouter>
-					<Routes>
-						<Route exact path="/">
-							<Homepage />
-						</Route>
-
-						<Route path="/signup">
-							{user ? <Homepage /> : <Signup />}
-						</Route>
-
-						<Route path="/login">
-							{user ? <Homepage /> : <LoginForm />}
-						</Route>
-						<Route path="/contact">
-							<Contact />
-						</Route>
-					</Routes>
-				</BrowserRouter> */}
-
 				<BrowserRouter>
 					<Routes>
 						<Route exact path="/" element={<Homepage />}></Route>
