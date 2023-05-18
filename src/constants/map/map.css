@@ -6,11 +6,11 @@
 }
 
 .map{
-    position: relative;
+    float: right;
     left: 10%;
     right: 10%;
-    width: 80%;
-    margin-top: 50px;
+    width: 70%;
+    margin: 20px;
     height: 80vh;
     border: 1px solid slategray;
     box-shadow: 0 0 10px pink;

@@ -3,6 +3,7 @@ import Header from '../../constants/header/Header';
 import NavBar from '../../constants/navbar/NavBar';
 import Footer from '../../constants/footer/Footer';
 import ActualMap from '../../constants/map/ActualMap';
+import SearchBox from '../../constants/searchbox/SearchBox';
 
 
 const Homepage = () => {
@@ -12,6 +13,7 @@ const Homepage = () => {
       <NavBar />
       <div></div>
       <ActualMap />
+      <SearchBox />
       <Footer />
     </>
   )
