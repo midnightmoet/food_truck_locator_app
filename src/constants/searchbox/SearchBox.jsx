@@ -13,8 +13,8 @@ const SearchBar = () => {
         <p>2. Click anywhere on the map to update your current location.</p>
         <form>
           <input type="text" placeholder="Enter your address" required></input>
-          <button type="submit">Find Food Truck</button>
-          <button type="submit"><a href="/signup">Save to Favorites</a></button>
+          <button type="submit">Search</button>
+          <button type="submit"><a href="/signup">Favorite</a></button>
         </form>
       </div>
 		</>
