@@ -39,7 +39,7 @@ const Contact = () => {
 									required
 								/>
 							</div>
-							<div class="form-control">
+							<div class="form-control" id="form-text">
 								<label for="message">Message</label>
 								<textarea
 									id="message"

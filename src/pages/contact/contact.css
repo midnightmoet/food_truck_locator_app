@@ -31,6 +31,11 @@
     padding: 10px;
 }
 
+#form-text {
+    display: flex;
+    flex-direction: column;
+}
+
 button {
     background: pink;
     color: slategray;
