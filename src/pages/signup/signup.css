@@ -94,3 +94,16 @@ body {
 p a:hover {
 	color: slategray;
 }
+
+@media screen and (max-width: 768px) {
+	.signup-form {
+		width: 80vw;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.signup-form {
+		width: 80vw;
+		margin-bottom: 20px;
+	}
+}

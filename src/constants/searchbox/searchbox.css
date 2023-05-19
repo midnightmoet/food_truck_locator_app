@@ -27,6 +27,11 @@
 	margin-bottom: 20px;
 }
 
+.form-container ul {
+	list-style: none;
+	margin-bottom: 20px;
+}
+
 .form-container input {
 	padding: 10px;
 	border: 1px solid slategray;
@@ -78,6 +83,21 @@ button a:hover {
         padding: 0px;
         margin-bottom: 10px;
     }
+
+	.form-container input {
+		width: 80%;
+		margin-bottom: 10px;
+	}
+	.form-container button {
+		margin-right: 10px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.form-container {
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
 
 	.form-container input {
 		width: 80%;
