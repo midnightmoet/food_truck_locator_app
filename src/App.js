@@ -3,6 +3,7 @@ import Homepage from "./pages/homepage/Homepage";
 import Signup from "./pages/signup/Signup";
 import LoginForm from "./pages/login/LoginForm";
 import Contact from "./pages/contact/Contact";
+import NotFound from "./pages/NotFound/NotFound";
 import { useContext } from "react";
 import { Context } from "./context/Context";
 
@@ -30,6 +31,7 @@ export default function App() {
 							path="/contact"
 							element={<Contact />}
 						></Route>
+						<Route path='*' element={<NotFound />}/>
 					</Routes>
 				</BrowserRouter>
 			</div>

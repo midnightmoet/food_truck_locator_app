@@ -18,7 +18,7 @@ const SearchBar = () => {
         <form method="POST">
           <input type="text" placeholder="Enter your address" required></input>
           <button type="submit" placeholder="Enter location">Search</button>
-          <button type="submit"><a href="/signup">Favorite</a></button>
+          <button type="submit"><a href="*">Favorite</a></button>
         </form>
       </div>
 		</>
