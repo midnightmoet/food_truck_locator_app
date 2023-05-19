@@ -20,7 +20,7 @@ body {
     min-height: 50vh;
     margin: 40px auto;
     background: white;
-    border: 1px solid slategray;
+    border-bottom: 1px solid slategray;
     box-shadow: 0 3px 6px pink;
 }
 
