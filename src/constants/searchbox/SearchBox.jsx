@@ -16,8 +16,9 @@ const SearchBar = () => {
           <li>4. Click on the pins to explore options</li>
         </ul>
         <form method="POST">
-          <input type="text" placeholder="Enter your address" required></input>
-          <button type="submit" placeholder="Enter location">Search</button>
+          <input type="text" placeholder="Enter your address"></input>
+          <input type="text" placeholder="Cuisine type"></input>
+          <button type="submit">Search</button>
           <button type="submit"><a href="*">Favorite</a></button>
         </form>
       </div>

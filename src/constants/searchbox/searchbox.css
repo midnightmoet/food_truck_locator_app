@@ -32,6 +32,10 @@
 	margin-bottom: 20px;
 }
 
+.form-container li {
+	margin-bottom: 10px;
+}
+
 .form-container input {
 	padding: 10px;
 	border: 1px solid slategray;
@@ -51,7 +55,7 @@
 
 .form-container button {
 	display: inline-block;
-	margin-right: 40px;
+	margin-right: 50px;
 	background: pink;
 	color: slategray;
 	border: none;
